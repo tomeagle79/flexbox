@@ -1,0 +1,47 @@
+/* ================================= 
+  Flexbox
+==================================== */
+
+.container {
+	display: flex;
+	min-height: 50vh;
+	justify-content: center;
+	// align-items: center;
+}
+
+.item {
+	margin: auto;
+}
+
+/*.item-2 {
+	flex: 2;
+}*/
+
+/* ================================= 
+  Card block
+==================================== */
+
+.card-block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+
+.card {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.card-header {
+	// flex: 1 0 100px;
+	height: 150px;
+}
+

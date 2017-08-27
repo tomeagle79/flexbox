@@ -1,0 +1,57 @@
+/* ================================= 
+  Page Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 1.35em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	background: #e8e9e9;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.container, .card-block {
+	padding: 10px;
+	background: #fff;
+  	border-radius: 5px;
+	margin: 45px auto;
+  	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+.item, .card-body {
+	color: #fff;
+	padding: 15px;
+	margin: 5px;	
+	background: #3db5da;
+	border-radius: 3px;
+}
+
+/* ================================= 
+  Card block
+==================================== */
+
+.card-block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+
+.card {
+	background-color: lightgray;
+	margin: 5px;
+	padding: 15px;
+}
+
+.card-header {
+	color: #fff;
+	padding: 15px;
+	margin: 5px;	
+	background: #a0a0a0;
+	border-radius: 3px;
+	text-align: center;
+}
